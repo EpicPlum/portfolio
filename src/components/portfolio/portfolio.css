@@ -26,13 +26,22 @@
 }
 
 .portfolio__item h3 {
-    margin: 1.2rem 0 2rem;
+    margin: 3rem 0 2rem;
     text-align: center;
     font-size: larger;
 }
 
-.portfolio__item-cta a {
-margin: auto;
+.portfolio__item-cta{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.portfolio__item-cta a{
+    width: 10rem;
+    text-align: center;
+    font-size: large;
 }
 
 p {
