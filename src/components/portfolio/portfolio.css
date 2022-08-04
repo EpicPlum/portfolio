@@ -16,11 +16,34 @@
     background: transparent;
 }
 
-.portfolio__item-image {
+.portfolio__item-image_1x4 {
     border-radius: 1.5rem;
     max-width: 75%;
     margin: auto;
     height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.portfolio__item-image_2x2 {
+    border-radius: 1.5rem;
+    max-width: 75%;
+    margin: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.portfolio__item-image_single {
+    border-radius: 1.5rem;
+    max-width: 75%;
+    margin: auto;
+    height: auto;
+    display: grid;
     overflow: hidden;
     margin-bottom: 2rem;
 }
@@ -38,8 +61,15 @@
     width: 100%;
 }
 
+.portfolio__item-cta h3{
+    font-size: larger;
+    padding-right: 5rem;
+}
+
 .portfolio__item-cta a{
-    width: 10rem;
+    margin-top: 2rem;
+    width: 15rem;
+    height: 3.5rem;
     text-align: center;
     font-size: large;
 }

@@ -16,7 +16,7 @@ const About = () => {
           <div className='about__cards'>
             <article className='about__card'>
               <h5>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis perspiciatis aperiam, minus neque repellendus minima rerum modi autem sed, alias libero quis iusto voluptate commodi dolores saepe laborum maiores provident.
+                Hi, I'm Will. I'm a Computer Science Student and aspiring programmer studying at HTW Berlin. I specialize in digital media programming and frontend development, but have plenty of experience in other areas of coding as well. If you're interested in hiring me, or just want to talk, please feel free to send me a message through any of my socials. Thanks :)
               </h5>
             </article>
           </div>
