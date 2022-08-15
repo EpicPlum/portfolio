@@ -75,26 +75,26 @@ const Portfolio = () => {
             <article className='portfolio__item'>
               <h3>{title}</h3>
               <div className='portfolio__item-image_1x4'>
-                  <img src={image_1x4_1}/>
-                  <img src={image_1x4_2}/>
-                  <img src={image_1x4_3}/>
-                  <img src={image_1x4_4}/>
+                  <img src={image_1x4_1} alt=""/>
+                  <img src={image_1x4_2} alt=""/>
+                  <img src={image_1x4_3} alt=""/>
+                  <img src={image_1x4_4} alt=""/>
               </div>
               <div className='portfolio__item-image_2x2'>
-                  <img src={image_2x2_1}/>
-                  <img src={image_2x2_2}/>
-                  <img src={image_2x2_3}/>
-                  <img src={image_2x2_4}/>
+                  <img src={image_2x2_1} alt=""/>
+                  <img src={image_2x2_2} alt=""/>
+                  <img src={image_2x2_3} alt=""/>
+                  <img src={image_2x2_4} alt=""/>
               </div>
               <div className='portfolio__item-image_single'>
-                <img src={image_single}/>
+                <img src={image_single} alt=""/>
               </div>
               <p>{p1}</p>
               <br />
               <p>{p2}</p>
               <div className="portfolio__item-cta">
                 <h3>Repo Link:</h3>
-                <a href={github} className='btn' target='_blank'>{link_name}</a>
+                <a href={github} className='btn' target='_blank' rel="noreferrer">{link_name}</a>
               </div>
             </article>
             )
